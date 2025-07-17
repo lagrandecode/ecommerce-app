@@ -10,11 +10,11 @@ dotenv.config();
 
 // Initialize Firebase Admin SDK
 try {
-  const serviceAccount = require('./ecommerce-app-4fbb9-firebase-adminsdk-fbsvc-f35a170d34.json');
+  const serviceAccount = require('./first-firebase-database-92ce7-firebase-adminsdk-10zks-1bb91def80.json');
   
   admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    storageBucket: 'ecommerce-app-4fbb9.firebasestorage.app'
+    storageBucket: 'first-firebase-database-92ce7.firebasestorage.app'
   });
   
   console.log('✅ Firebase Admin SDK initialized successfully');
