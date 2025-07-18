@@ -1,0 +1,9 @@
+FIREBASE_SETUP.md
+FINAL_TEST_GUIDE.md
+firebase-rules.md
+LOGIN_TEST.md
+setup.md
+ADMIN_CASHIER_SETUP.md
+.gitignore
+.dockerignore
+.env*
